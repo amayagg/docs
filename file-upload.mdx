@@ -1,4 +1,34 @@
 ---
 title: "File Upload"
-description: "Description of your new file."
+description: "Upload a CSV file and map raw headers before enrichment."
 ---
+
+### **Step 1: Upload your CSV**
+
+- Click the **Upload** button at the top of the screen.
+- Drag and drop your CSV file into the upload area, or click to browse and select it.
+- File size must be under **10MB**.
+
+### **Step 2: Review & Confirm Column Mapping**
+
+- Once uploaded, you’ll be taken to the **Map** screen.
+- Column headers from your file are automatically mapped to the system fields.
+- **Double-check** each field to ensure the mappings are correct:
+  - Product Root ID → Primary ID
+  - Product Name → Product Name
+  - Manufacturer → Manufacturer Name
+  - Catalog Number → Manufacturer Part Number
+
+If a column is incorrectly mapped, you can manually adjust it using the dropdowns.
+
+<Warning>
+  If any fields are left unmapped, they will still be stored as raw input for AI enrichment. 
+
+  However, dropped fields will be excluded entirely from the system.
+
+  Make sure to review all mappings before finalizing your upload.
+</Warning>
+
+### **Step 3: Finalize Upload**
+
+- Click the **Upload** button in the bottom-right to complete the import.
