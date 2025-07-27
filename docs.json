@@ -18,7 +18,7 @@
             "pages": [
               "sheets",
               "attribute-setup",
-              "upload-file",
+              "file-upload",
               "web-search",
               "export-settings"
             ]
