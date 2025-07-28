@@ -12,11 +12,11 @@
     "tabs": [
       {
         "tab": "Guides",
+        "pages": ["index"]
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
               "sheet-setup",
               "attribute-setup",
               "file-upload",
