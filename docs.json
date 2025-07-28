@@ -12,8 +12,11 @@
     "tabs": [
       {
         "tab": "Guides",
-        "pages": ["index"],
         "groups": [
+          {
+            "group": "",
+            "pages": ["index"]
+          },
           {
             "group": "Getting started",
             "pages": [
