@@ -1,4 +1,39 @@
 ---
 title: "Attribute Setup"
-description: "Description of your new file."
+description: "Attributes define the structure of your product data. Each column in your sheet represents an attribute like product name, brand, dimensions, or documents."
 ---
+
+<Tip>
+  Your attribute setup should match 1:1 with your PIM or e-commerce platform.
+</Tip>
+
+### **1. Creating or Editing Attributes**
+
+Click the <Icon icon="circle-plus" /> button in the Attributes panel to create a new field, or click <Icon icon="pencil" /> to edit an existing one.
+
+For each attribute, you can define:
+
+- **Name** – What appears in the UI
+- **Type** – The expected data format (see below)
+- **Instructions** – Guidance for how this field should be filled (can include examples, formatting rules, etc.)
+
+### **2. Attribute Types**
+
+Each attribute should use the most appropriate type based on the kind of content it holds:
+
+| **Type**         | **Description**                                             |
+| :--------------- | :---------------------------------------------------------- |
+| **Text**         | Standard freeform string input                              |
+| **Number**       | Numeric values only                                         |
+| **Dropdown**     | Single-select list of predefined values                     |
+| **True/False**   | Boolean yes/no toggle                                       |
+| **Image**        | Stores image URLs or uploads                                |
+| **PDF**          | Attach product documents like safety sheets or manuals      |
+| **URL**          | Any valid hyperlink (e.g. source pages, vendor links)       |
+| **Category**     | Used for categorization and taxonomy mapping                |
+| **Metric**       | For measurable values (e.g. Weight: 5kg)                    |
+| **List**         | Multi-line list (each value on its own row)                 |
+| **Multi-Select** | Choose multiple values from a dropdown list                 |
+| **Key/Values**   | Stores paired data, e.g. “Color: Red, Size: M”              |
+| **JSON**         | For advanced structured data                                |
+| **HTML**         | Rich text, formatted with HTML (e.g. for long descriptions) |

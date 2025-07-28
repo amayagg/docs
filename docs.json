@@ -16,7 +16,7 @@
           {
             "group": "Getting started",
             "pages": [
-              "sheets",
+              "sheet-setup",
               "attribute-setup",
               "file-upload",
               "web-search",
