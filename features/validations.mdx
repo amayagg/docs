@@ -1,0 +1,33 @@
+---
+title: "Validations"
+description: "Set up validations to automatically detect any errors before export."
+---
+
+### **1. Enable Data Validation**
+
+Make sure the **“Data Validation”** option is checked to activate this feature. This ensures your configured rules are applied during enrichment or review.
+
+### **2. Set Up Validation Rules**
+
+Validation rules define how your product data should be checked. These rules act as quality controls to catch mismatches, missing values, or formatting issues.
+
+#### **For Each Rule:**
+
+- **Display Name:** Give your rule a clear, descriptive name (e.g., “Image Check”, “Description Format Rule”).
+- **Rule (Text Field):** Describe the validation condition in plain language. Use specific instructions such as:
+  - “Ensure text attributes align with the product name and images.”
+  - “Flag if warranty is missing for electronics.”
+  - “Check that material includes ‘wood’ if category is Furniture.”
+
+<Tip>
+  Use / to insert specific attributes into your rule (e.g., /Material, /Product Name). These will dynamically reference values from your data.
+</Tip>
+
+### **3. Add More Rules**
+
+Click **\+ Add Rule** to create additional validation checks. You can define as many as needed for your use case.
+
+### **Best Practices**
+
+- Be specific: Avoid vague rules. Use terms like “must include”, “cannot be empty”, or “should match”.
+- Use attributes: Refer to actual field names using / to make the rules dynamic.
